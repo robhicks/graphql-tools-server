@@ -1,0 +1,8 @@
+# import Post from "./posts/Post.graphql";
+
+type Mutation {
+  addPost(
+    content: String!
+    tags: [String]
+  ): Post
+}

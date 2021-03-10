@@ -1,0 +1,1 @@
+web: nodemon -e js,mjs,graphql -w graphql -w server -w mongoose -w server.mjs server.mjs

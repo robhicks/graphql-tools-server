@@ -1,0 +1,8 @@
+type Post { 
+  created: String
+  content: String
+  delta: String
+  id: ID
+  tags: [String]
+  updated: String!
+}

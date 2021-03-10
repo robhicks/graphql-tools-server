@@ -1,0 +1,5 @@
+# import Post from "./posts/Post.graphql"
+
+type Query {
+  posts: [Post]
+}
